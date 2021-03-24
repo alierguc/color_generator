@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
   @override  
   Widget build(BuildContext context) {  
     return MaterialApp(  
-      title: 'Splash Tap Demo',  
+      title: 'Color Generator Demo',  
        theme: ThemeData(
               primaryColor: colorGenerator.hexToBinary(colorPalettes.SplashScreenColor),
             ),
