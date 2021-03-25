@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
        theme: ThemeData(
               primaryColor: colorGenerator.hexToBinary(colorPalettes.SplashScreenColor),
             ),
-      home: SplashTapDemo(),  
+      home: ColorGeneratorDemo(),  
     );  
   }  
 }  
